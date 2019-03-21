@@ -1,0 +1,15 @@
+[Unit]
+Description=Alert_Telegram_bot
+
+[Service]
+User=root
+ExecStart=/opt/prometheus_bot/prometheus_bot -c /opt/prometheus_bot/config.yaml -l 127.0.0.1:9087
+Type=simple
+Restart=always
+StandardOutput=null
+StandardError=journal
+#Environment="http_proxy=http://proxy.s7.ru:3128/"
+#Environment="https_proxy=http://proxy.s7.ru:3128/"
+
+[Install]
+WantedBy=multi-user.target

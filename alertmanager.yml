@@ -1,0 +1,4 @@
+- name: prometheus_bot
+  webhook_configs:
+  - send_resolved: True
+    url: http://127.0.0.1:9087/alert/-chat_id
