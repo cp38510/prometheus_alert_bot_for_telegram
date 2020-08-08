@@ -1,5 +1,4 @@
 #set telegram_token, for example:
-#telegram_token: "884354467:DVnMo6ykywiNtV2Udsds&4387u8X3-TFQ8FmmfS"
 telegram_token: "TOKEN GOES HERE"
 # ONLY IF YOU USING TEMPLATE required for test
 

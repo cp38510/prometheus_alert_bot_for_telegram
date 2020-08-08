@@ -8,8 +8,6 @@ Type=simple
 Restart=always
 StandardOutput=null
 StandardError=journal
-#Environment="http_proxy=http://proxy.s7.ru:3128/"
-#Environment="https_proxy=http://proxy.s7.ru:3128/"
 
 [Install]
 WantedBy=multi-user.target
